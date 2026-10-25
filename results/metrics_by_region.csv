@@ -1,0 +1,11 @@
+model,Balochistan,KP,Sindh
+gru_noreport,25.34,90.07,83.04
+gru_report,26.19,134.7,143.96
+lgbm_base,27.6,85.23,106.23
+lgbm_climate,27.19,88.67,109.49
+lgbm_full,27.13,89.05,111.3
+lgbm_reporting,28.67,78.07,111.31
+moving_avg4,36.77,107.73,133.73
+naive_last,34.13,80.71,98.69
+seasonal_naive,34.27,85.7,150.77
+seasonal_naive3,32.19,82.13,152.3

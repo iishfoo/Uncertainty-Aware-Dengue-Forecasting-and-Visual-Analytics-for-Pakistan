@@ -1,0 +1,221 @@
+
+======================================================================
+>>> parse_bulletins.py
+======================================================================
+  20/194
+  40/194
+  60/194
+  80/194
+  100/194
+  120/194
+  140/194
+  160/194
+  180/194
+
+PDFs read: 194 | usable weeks (2023-W22 onward): 167 | not used as weekly bulletins: 27
+Window: 2023-W22 -> 2026-W38 | missing weeks (6): ['2025-W46', '2026-W08', '2026-W09', '2026-W13', '2026-W23', '2026-W35']
+Table 1 missing or failed: 1 | sum check failed: 2
+Punjab NR by year: {2023: '26/30', 2024: '16/52', 2025: '39/51', 2026: '33/33'}
+Compliance table not read: 12 weeks | lab row not read: 13 weeks
+  no region compliance table (early layout?): ['2023-W22', '2023-W23', '2023-W24']
+  compliance rows unreadable: ['2023-W25', '2023-W26', '2023-W27', '2023-W28', '2025-W27', '2025-W28', '2025-W29', '2025-W36', '2026-W27']
+  Table 1 problems: ['2023-W27', '2023-W28', '2023-W34']
+  lab problems: ['2023-W27', '2023-W28', '2023-W29', '2023-W30', '2023-W34', '2023-W47', '2023-W52', '2024-W47', '2025-W31', '2025-W33', '2025-W42', '2025-W43', '2025-W48']
+  Table 5 not found: ['2023-W27', '2023-W28', '2023-W29', '2023-W30', '2025-W48']
+  most common problems:
+      9 x could not read the N compliance rows (got N)
+      5 x Table N (laboratories) not found
+      4 x lab header not found
+      3 x no region compliance table (early layout?)
+      2 x Table N: provinces do not add up to Total
+      2 x title says (N, N) but filename says (N, N): used the filename
+      2 x Dengue label not found in lab table
+      2 x two values fall in one lab column (layout shifted)
+  week taken from the filename (no title in the PDF): 15 weeks, first ['2023-W23', '2023-W24', '2023-W25']
+    [Table 1] 2023-W27: Table 1: provinces do not add up to Total
+    [Table 1] 2023-W28: Table 1: provinces do not add up to Total
+    [Table 1] 2023-W34: Table 1 header has no Total column
+    [compliance] 2023-W25: could not read the 7 compliance rows (got 5)
+    [compliance] 2023-W26: could not read the 7 compliance rows (got 5)
+    [compliance] 2023-W27: could not read the 7 compliance rows (got 5)
+    [compliance] 2023-W28: could not read the 7 compliance rows (got 5)
+    [compliance] 2025-W27: could not read the 7 compliance rows (got 6)
+    [compliance] 2025-W28: could not read the 7 compliance rows (got 6)
+    [compliance] 2025-W29: could not read the 7 compliance rows (got 6)
+    [compliance] 2025-W36: could not read the 7 compliance rows (got 6)
+    [compliance] 2026-W27: could not read the 7 compliance rows (got 1)
+    [lab] 2025-W33: two values fall in one lab column (layout shifted)
+    [lab] 2025-W43: two values fall in one lab column (layout shifted)
+    [Table 1 sum check failed] 2023-W27: {'AJK': 2, 'Balochistan': 1, 'GB': 0, 'ICT': 0, 'KP': 75, 'Punjab': 521, 'Sindh': 83} total 161
+    [Table 1 sum check failed] 2023-W28: {'AJK': 3, 'Balochistan': 0, 'GB': 0, 'ICT': 0, 'KP': 19, 'Punjab': 456, 'Sindh': 93} total 115
+  bulletin's own regions != National: 27 weeks (small source inconsistency, kept)
+  KEY FIX: 2024_07_Weekly_Report-25-2024.pdf | title says (2024, 24) but filename says (2024, 25): used the filename
+  KEY FIX: 2025_01_Weekly_Report-01-2025.pdf | title says (2024, 1) but filename says (2025, 1): used the filename
+Details for every file: data/parse_log.csv
+
+======================================================================
+>>> build_dataset.py
+======================================================================
+Saved data/model_table.csv | 173 weeks x 7 regions (2023-W22 -> 2026-W38)
+Weeks with no bulletin at all: 7
+
+      region  weeks_with_bulletin  observed_%  NR_%  median_compliance_%  compliance<50%_weeks  weeks_with_lab_tests  median_tests
+        AJK                  166        92.8   7.2                 93.6                    11                    64          10.0
+Balochistan                  166       100.0   0.0                 60.9                    40                    70           7.0
+         GB                  166       100.0   0.0                 92.0                    16                    23           0.0
+        ICT                  166       100.0   0.0                 77.8                    11                    51           4.0
+         KP                  166       100.0   0.0                 73.1                     0                    77           3.0
+     Punjab                  166        31.3  68.7                  NaN                     0                     1           0.0
+      Sindh                  166       100.0   0.0                 94.6                     1                   124        1241.0
+
+Punjab reported (not NR) in these stretches:
+  2023-W27 -> 2023-W29  (3 weeks)
+  2023-W36 -> 2023-W36  (1 weeks)
+  2024-W17 -> 2025-W10  (46 weeks)
+  2025-W14 -> 2025-W14  (1 weeks)
+  2025-W48 -> 2025-W48  (1 weeks)
+
+Climate columns missing: 0 region-weeks (expected: weeks after the last full climate week)
+
+======================================================================
+>>> coverage_report.py
+======================================================================
+Saved data\coverage_report.html - open it in your browser
+
+======================================================================
+>>> run_models.py
+======================================================================
+regions ['Balochistan', 'KP', 'Sindh'] | 70 forecast origins from 2025-05-12 to 2026-09-07 | refit every 4 origins (18 refits) | variants: ['lgbm_base', 'lgbm_climate', 'lgbm_reporting', 'lgbm_full']
+  refit 1/18 (data up to 2025-05-12)
+  refit 2/18 (data up to 2025-06-09)
+  refit 3/18 (data up to 2025-07-07)
+  refit 4/18 (data up to 2025-08-04)
+  refit 5/18 (data up to 2025-09-01)
+  refit 6/18 (data up to 2025-09-29)
+  refit 7/18 (data up to 2025-10-27)
+  refit 8/18 (data up to 2025-11-24)
+  refit 9/18 (data up to 2025-12-22)
+  refit 10/18 (data up to 2026-01-19)
+  refit 11/18 (data up to 2026-02-16)
+  refit 12/18 (data up to 2026-03-16)
+  refit 13/18 (data up to 2026-04-13)
+  refit 14/18 (data up to 2026-05-11)
+  refit 15/18 (data up to 2026-06-08)
+  refit 16/18 (data up to 2026-07-06)
+  refit 17/18 (data up to 2026-08-03)
+  refit 18/18 (data up to 2026-08-31)
+
+Saved results/pred_classic.csv (6000 rows) and results/forecast_future.csv
+Next: python summarize_results.py
+
+======================================================================
+>>> run_gru.py
+======================================================================
+GRU | regions ['Balochistan', 'KP', 'Sindh'] | 70 origins | 9 refits x 2 variants x 3 seeds
+  refit 1/9 done (data up to 2025-05-12)
+  refit 2/9 done (data up to 2025-07-07)
+  refit 3/9 done (data up to 2025-09-01)
+  refit 4/9 done (data up to 2025-10-27)
+  refit 5/9 done (data up to 2025-12-22)
+  refit 6/9 done (data up to 2026-02-16)
+  refit 7/9 done (data up to 2026-04-13)
+  refit 8/9 done (data up to 2026-06-08)
+  refit 9/9 done (data up to 2026-08-03)
+
+Saved results/pred_gru.csv (1500 rows) and results/forecast_future_gru.csv
+Next: python summarize_results.py
+
+======================================================================
+>>> summarize_results.py
+======================================================================
+10 models, 750 forecasts (origin x region x horizon) with all models present; origins 2025-05-12 -> 2026-09-07
+
+== Overall (lower is better; coverage80 should be near 0.80; ratios < 1 beat that baseline)
+                      MAE     RMSE  logMAE     WIS  coverage80    width  MAE_vs_naive_last  MAE_vs_seasonal_naive3
+model                                                                                                            
+gru_noreport      66.152  143.284   0.756  50.190       0.524   77.354              0.929                   0.744
+naive_last        71.176  144.384   0.846     NaN         NaN      NaN              1.000                   0.801
+lgbm_reporting    72.683  153.887   0.826  58.083       0.595  106.128              1.021                   0.818
+lgbm_base         73.017  157.346   0.792  58.370       0.589   96.714              1.026                   0.822
+lgbm_climate      75.115  162.724   0.816  62.110       0.527   88.868              1.055                   0.845
+lgbm_full         75.827  160.716   0.821  61.891       0.539   96.224              1.065                   0.853
+seasonal_naive3   88.873  176.265   0.996     NaN         NaN      NaN              1.249                   1.000
+seasonal_naive    90.245  176.222   1.098     NaN         NaN      NaN              1.268                   1.015
+moving_avg4       92.743  172.910   0.945     NaN         NaN      NaN              1.303                   1.044
+gru_report       101.619  205.890   1.076  84.556       0.427   81.094              1.428                   1.143 
+
+== MAE by horizon
+ h                    1       2       3       4
+model                                         
+gru_noreport     57.72   64.25   69.14   73.93
+naive_last       45.82   61.04   79.95   99.34
+lgbm_reporting   58.40   72.30   76.91   83.76
+lgbm_base        59.41   73.53   77.31   82.40
+lgbm_climate     60.74   71.67   82.01   86.74
+lgbm_full        60.58   73.30   81.35   88.83
+seasonal_naive3  90.03   88.13   88.14   89.17
+seasonal_naive   91.20   89.60   89.74   90.43
+moving_avg4      65.25   84.56  102.36  120.26
+gru_report       90.66  100.77  103.30  112.29 
+
+== MAE by region
+ region           Balochistan      KP   Sindh
+model                                       
+gru_noreport           25.34   90.07   83.04
+naive_last             34.13   80.71   98.69
+lgbm_reporting         28.67   78.07  111.31
+lgbm_base              27.60   85.23  106.23
+lgbm_climate           27.19   88.67  109.49
+lgbm_full              27.13   89.05  111.30
+seasonal_naive3        32.19   82.13  152.30
+seasonal_naive         34.27   85.70  150.77
+moving_avg4            36.77  107.73  133.73
+gru_report             26.19  134.70  143.96 
+
+== MAE relative to naive_last, by region (so big regions do not dominate; < 1 is better than persistence)
+ region           Balochistan    KP  Sindh
+model                                    
+gru_noreport            0.74  1.12   0.84
+naive_last              1.00  1.00   1.00
+lgbm_reporting          0.84  0.97   1.13
+lgbm_base               0.81  1.06   1.08
+lgbm_climate            0.80  1.10   1.11
+lgbm_full               0.79  1.10   1.13
+seasonal_naive3         0.94  1.02   1.54
+seasonal_naive          1.00  1.06   1.53
+moving_avg4             1.08  1.33   1.36
+gru_report              0.77  1.67   1.46 
+
+== Pairwise tests (moving-block bootstrap, blocks of 8 origins; negative = first model better)
+                                                                      comparison    metric  mean_diff  ci95_low  ci95_high  clear_difference
+                                 GRU vs persistence (gru_noreport vs naive_last) abs error      -5.02    -27.64      19.62             False
+                                     GRU vs LightGBM (gru_noreport vs lgbm_base) abs error      -6.86    -14.87      -0.50              True
+                                     GRU vs LightGBM (gru_noreport vs lgbm_base)       WIS      -8.18    -18.53      -0.87              True
+GRU vs persistence, horizons 1-2 only (exploratory) (gru_noreport vs naive_last) abs error       7.59    -11.58      34.36             False
+GRU vs persistence, horizons 3-4 only (exploratory) (gru_noreport vs naive_last) abs error     -18.05    -51.84      10.33             False
+                            LightGBM: adding CLIMATE (lgbm_climate vs lgbm_base) abs error       2.10     -1.35       5.87             False
+                            LightGBM: adding CLIMATE (lgbm_climate vs lgbm_base)       WIS       3.74      0.54       8.06              True
+                        LightGBM: adding REPORTING (lgbm_reporting vs lgbm_base) abs error      -0.33     -5.36       2.68             False
+                        LightGBM: adding REPORTING (lgbm_reporting vs lgbm_base)       WIS      -0.29     -3.08       1.60             False
+        LightGBM: adding REPORTING on top of climate (lgbm_full vs lgbm_climate) abs error       0.71     -1.79       2.36             False
+        LightGBM: adding REPORTING on top of climate (lgbm_full vs lgbm_climate)       WIS      -0.22     -2.54       1.20             False
+                              GRU: adding REPORTING (gru_report vs gru_noreport) abs error      35.47     15.16      61.79              True
+                              GRU: adding REPORTING (gru_report vs gru_noreport)       WIS      34.37     14.76      62.34              True 
+
+== Interval calibration: raw vs conformally adjusted (same forecasts; nominal coverage 0.80)
+                       n  coverage80     WIS    width
+model                                               
+gru_noreport        612       0.528  57.560   84.590
+gru_noreport+cqr    612       0.791  47.415  174.672
+gru_report          612       0.418  98.872   89.003
+gru_report+cqr      612       0.742  89.083  262.397
+lgbm_base           612       0.585  66.951  104.512
+lgbm_base+cqr       612       0.768  58.711  200.695
+lgbm_climate        612       0.510  72.057   96.243
+lgbm_climate+cqr    612       0.745  63.429  175.442
+lgbm_full           612       0.525  71.587  104.889
+lgbm_full+cqr       612       0.752  63.506  181.090
+lgbm_reporting      612       0.583  66.383  115.695
+lgbm_reporting+cqr  612       0.760  58.720  205.941 
+
+Saved results/metrics_*.csv

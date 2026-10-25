@@ -1,0 +1,195 @@
+﻿file,status,title_key,file_key,final_key,kept,warnings
+2021_07_IDSR-Weekly-Report-21-June-2021.pdf,no week/year title,,,,False,
+2021_07_IDSR-Weekly-Report-23_3.pdf,no week/year title,,,,False,
+2021_07_IDSR-Weekly-Report-25-2021.pdf,ok,"(2021, 25)","(2021, 25)","(2021, 25)",False,"Table 1 header has unknown columns: ['Gwadar', 'Lasbella', 'Pishin', 'Quetta', 'Khuzdar']; no region compliance table (early layout?); Table 5 (laboratories) not found"
+2021_12_IDSR-Weekly-Report-27-2021.pdf,ok,"(2021, 27)","(2021, 27)","(2021, 27)",False,"Table 1 header has unknown columns: ['Ghotki', 'Hyderabad', 'Shikarpur']; no region compliance table (early layout?); Table 5 (laboratories) not found"
+2021_12_IDSR-Weekly-Report-29-2021-Final.pdf,ok,"(2021, 29)","(2021, 29)","(2021, 29)",False,Dengue row of Table 1 not found; no region compliance table (early layout?); Table 5 (laboratories) not found
+2021_12_IDSR-Weekly-Report-30-2021.pdf,ok,"(2021, 30)","(2021, 30)","(2021, 30)",False,Dengue row of Table 1 not found; no region compliance table (early layout?); Table 5 (laboratories) not found
+2021_12_IDSR-Weekly-Report-32-2021.pdf,ok,"(2021, 32)","(2021, 32)","(2021, 32)",False,"Table 1 header has unknown columns: ['Gwadar', 'Kech', '/', 'Turbat', 'Lasbella', 'Quetta']; no region compliance table (early layout?); Table 5 (laboratories) not found"
+2021_12_IDSR-Weekly-Report-34-2021-1.pdf,ok,"(2021, 34)","(2021, 34)","(2021, 34)",False,Dengue row of Table 1 not found; no region compliance table (early layout?); Table 5 (laboratories) not found
+2021_12_IDSR-Weekly-Report-36-2021.pdf,ok,"(2021, 36)","(2021, 36)","(2021, 36)",False,"Table 1 header has unknown columns: ['Ghotki', 'Hyderabad', 'Shikarpur', 'Tharparkar', 'Thatta']; no region compliance table (early layout?); Table 5 (laboratories) not found"
+2021_12_IDSR-Weekly-Report-38-2021.pdf,ok,"(2021, 38)","(2021, 38)","(2021, 38)",False,"Table 1 header has unknown columns: ['Gwadar', 'Khuzdar', 'Lasbella', 'Pishin', 'Quetta']; no region compliance table (early layout?); Table 5 (laboratories) not found"
+2021_12_IDSR-Weekly-Report-40-Final.pdf,no week/year title,,,,False,
+2021_12_IDSR-Weekly-Report-42-2021.pdf,ok,"(2021, 42)","(2021, 42)","(2021, 42)",False,no region compliance table (early layout?); Table 5 (laboratories) not found
+2021_12_IDSR-Weekly-Report-44-2021.pdf,ok,"(2021, 44)","(2021, 44)","(2021, 44)",False,no region compliance table (early layout?); Table 5 (laboratories) not found
+2021_12_IDSR-Weekly-Report-46-2021.pdf,ok,"(2021, 46)","(2021, 46)","(2021, 46)",False,Table 1 header has no Total column; no region compliance table (early layout?); Table 5 (laboratories) not found
+2021_12_IDSR-Weekly-Report-48-Final.pdf,no week/year title,,,,False,
+2022_01_IDSR-Weekly-Report-50.pdf,no week/year title,,,,False,
+2022_01_IDSR-Weekly-Report-52-2021.pdf,ok,"(2021, 52)","(2021, 52)","(2021, 52)",False,no region compliance table (early layout?); Table 5 (laboratories) not found
+2022_02_IDSR-Weekly-Report-2-2022.pdf,ok,"(2022, 2)","(2022, 2)","(2022, 2)",False,"Table 1 header has unknown columns: ['Abbottabad', 'Charsadda', 'Haripur', 'Kohat', 'Malakand', 'Swabi', 'Swat']; no region compliance table (early layout?); Table 5 (laboratories) not found"
+2022_02_IDSR-Weekly-Report-4-2022.pdf,ok,"(2022, 4)","(2022, 4)","(2022, 4)",False,"Table 1 header has unknown columns: ['Charsadda', 'Haripur', 'Kohat', 'Malakand', 'Swabi', 'Swat']; no region compliance table (early layout?); Table 5 (laboratories) not found"
+2022_03_IDSR-Weekly-Report-7-1.pdf,no week/year title,,,,False,
+2022_03_IDSR-Weekly-Report-9-2022.pdf,ok,"(2022, 9)","(2022, 9)","(2022, 9)",False,Dengue row of Table 1 not found; no region compliance table (early layout?); Table 5 (laboratories) not found
+2022_04_IDSR-Weekly-Report-11-2022.pdf,ok,"(2022, 11)","(2022, 11)","(2022, 11)",False,Table 1 header not found; no region compliance table (early layout?); Table 5 (laboratories) not found
+2022_04_IDSR-Weekly-Report-13-2022-1.pdf,ok,"(2022, 13)","(2022, 13)","(2022, 13)",False,Table 1 header not found; no region compliance table (early layout?); Table 5 (laboratories) not found
+2022_04_IDSR-Weekly-Report-14-2022.pdf,ok,"(2022, 14)","(2022, 14)","(2022, 14)",False,Table 1 header has no Total column; no region compliance table (early layout?); Table 5 (laboratories) not found
+2022_04_IDSR-Weekly-Report-15-2022.pdf,ok,"(2022, 15)","(2022, 15)","(2022, 15)",False,no region compliance table (early layout?); Table 5 (laboratories) not found
+2022_05_IDSR-Weekly-Report-16-2022.pdf,ok,"(2022, 16)","(2022, 16)","(2022, 16)",False,Table 1 header not found; no region compliance table (early layout?); Table 5 (laboratories) not found
+2023_04_Weekly_Report-16-2023.pdf,ok,"(2023, 16)","(2023, 16)","(2023, 16)",False,no region compliance table (early layout?); Table 5 (laboratories) not found
+2023_07_Weekly_Report_26_2023.pdf,ok,"(2023, 26)","(2023, 26)","(2023, 26)",True,could not read the 7 compliance rows (got 5)
+2023_08_Weekly_Report_22_2023.pdf,ok,"(2023, 22)","(2023, 22)","(2023, 22)",True,no region compliance table (early layout?)
+2023_08_Weekly_Report_23_2023.pdf,ok,"(2023, 23)","(2023, 23)","(2023, 23)",True,no region compliance table (early layout?)
+2023_08_Weekly_Report_24_2023.pdf,ok,"(2023, 24)","(2023, 24)","(2023, 24)",True,no region compliance table (early layout?)
+2023_08_Weekly_Report_25_2023.pdf,ok,"(2023, 25)","(2023, 25)","(2023, 25)",True,could not read the 7 compliance rows (got 5)
+2023_08_Weekly_Report_27_2023.pdf,ok,"(2023, 27)","(2023, 27)","(2023, 27)",True,Table 1: provinces do not add up to Total; could not read the 7 compliance rows (got 5); Table 5 (laboratories) not found
+2023_08_Weekly_Report_28_2023.pdf,ok,"(2023, 28)","(2023, 28)","(2023, 28)",True,Table 1: provinces do not add up to Total; could not read the 7 compliance rows (got 5); Table 5 (laboratories) not found
+2023_08_Weekly_Report_29_2023.pdf,ok,"(2023, 29)","(2023, 29)","(2023, 29)",True,Table 5 (laboratories) not found
+2023_08_Weekly_Report_30_2023.pdf,ok,"(2023, 30)","(2023, 30)","(2023, 30)",True,Table 5 (laboratories) not found
+2023_08_Weekly_Report_31_2023.pdf,ok,"(2023, 31)","(2023, 31)","(2023, 31)",True,
+2023_08_Weekly_Report_32_2023.pdf,ok,"(2023, 32)","(2023, 32)","(2023, 32)",True,
+2023_09_Weekly_Report_33_2023.pdf,ok,"(2023, 33)","(2023, 33)","(2023, 33)",True,
+2023_09_Weekly_Report_34_2023.pdf,ok,"(2023, 34)","(2023, 34)","(2023, 34)",True,Table 1 header has no Total column; lab header not found
+2023_09_Weekly_Report_35_2023.pdf,ok,"(2023, 35)","(2023, 35)","(2023, 35)",True,
+2023_10_Weekly_Report-37-2023.pdf,ok,"(2023, 37)","(2023, 37)","(2023, 37)",True,
+2023_10_Weekly_Report-38-2023.pdf,ok,"(2023, 38)","(2023, 38)","(2023, 38)",True,
+2023_10_Weekly_Report-39-2023.pdf,ok,"(2023, 39)","(2023, 39)","(2023, 39)",True,
+2023_10_Weekly_Report-40-2023.pdf,ok,"(2023, 40)","(2023, 40)","(2023, 40)",True,
+2023_10_Weekly_Report_36_2023.pdf,ok,"(2023, 36)","(2023, 36)","(2023, 36)",True,
+2023_10_Weekly_Report_41_2023.pdf,ok,"(2023, 41)","(2023, 41)","(2023, 41)",True,
+2023_11_Weekly_Report-42-2023.pdf,ok,"(2023, 42)","(2023, 42)","(2023, 42)",True,
+2023_11_Weekly_Report-43-2023.pdf,ok,"(2023, 43)","(2023, 43)","(2023, 43)",True,
+2023_11_Weekly_Report-44-2023.pdf,ok,"(2023, 44)","(2023, 44)","(2023, 44)",True,
+2023_11_Weekly_Report-45-2023.pdf,ok,"(2023, 45)","(2023, 45)","(2023, 45)",True,
+2024_01_Weekly_Report-01-2024.pdf,ok,"(2024, 1)","(2024, 1)","(2024, 1)",True,
+2024_01_Weekly_Report-02-2024.pdf,ok,"(2024, 2)","(2024, 2)","(2024, 2)",True,"compliance: regions minus National = expected +0, received +4"
+2024_01_Weekly_Report-03-2024.pdf,ok,"(2024, 3)","(2024, 3)","(2024, 3)",True,
+2024_01_Weekly_Report-46-2023.pdf,ok,"(2023, 46)","(2023, 46)","(2023, 46)",True,
+2024_01_Weekly_Report-47-2023.pdf,ok,"(2023, 47)","(2023, 47)","(2023, 47)",True,lab header not found
+2024_01_Weekly_Report-48-2023.pdf,ok,"(2023, 48)","(2023, 48)","(2023, 48)",True,
+2024_01_Weekly_Report-49-2023.pdf,ok,"(2023, 49)","(2023, 49)","(2023, 49)",True,
+2024_01_Weekly_Report-50-2023.pdf,ok,"(2023, 50)","(2023, 50)","(2023, 50)",True,
+2024_01_Weekly_Report-51-2023.pdf,ok,"(2023, 51)","(2023, 51)","(2023, 51)",True,
+2024_01_Weekly_Report-52-2023.pdf,ok,"(2023, 52)","(2023, 52)","(2023, 52)",True,lab header not found
+2024_02_Weekly_Report-04-2024.pdf,ok,"(2024, 4)","(2024, 4)","(2024, 4)",True,
+2024_02_Weekly_Report-05-2024.pdf,ok,"(2024, 5)","(2024, 5)","(2024, 5)",True,
+2024_03_Weekly_Report-06-2024.pdf,ok,"(2024, 6)","(2024, 6)","(2024, 6)",True,"compliance: regions minus National = expected +0, received +3"
+2024_03_Weekly_Report-07-2024.pdf,ok,"(2024, 7)","(2024, 7)","(2024, 7)",True,
+2024_03_Weekly_Report-08-2024.pdf,ok,"(2024, 8)","(2024, 8)","(2024, 8)",True,
+2024_04_Weekly_Report-09-2024.pdf,ok,"(2024, 9)","(2024, 9)","(2024, 9)",True,
+2024_04_Weekly_Report-10-2024.pdf,ok,"(2024, 10)","(2024, 10)","(2024, 10)",True,
+2024_04_Weekly_Report-11-2024.pdf,ok,"(2024, 11)","(2024, 11)","(2024, 11)",True,
+2024_04_Weekly_Report-12-2024.pdf,ok,"(2024, 12)","(2024, 12)","(2024, 12)",True,
+2024_05_Weekly_Report-13-2024.pdf,ok,"(2024, 13)","(2024, 13)","(2024, 13)",True,"compliance: regions minus National = expected +0, received +1"
+2024_05_Weekly_Report-14-2024.pdf,ok,"(2024, 14)","(2024, 14)","(2024, 14)",True,
+2024_05_Weekly_Report-15-2024.pdf,ok,"(2024, 15)","(2024, 15)","(2024, 15)",True,
+2024_05_Weekly_Report-16-2024.pdf,ok,"(2024, 16)","(2024, 16)","(2024, 16)",True,
+2024_05_Weekly_Report-17-2024.pdf,ok,"(2024, 17)","(2024, 17)","(2024, 17)",True,
+2024_05_Weekly_Report-18-2024.pdf,ok,"(2024, 18)","(2024, 18)","(2024, 18)",True,
+2024_06_Weekly_Report-19-2024.pdf,ok,"(2024, 19)","(2024, 19)","(2024, 19)",True,
+2024_06_Weekly_Report-20-2024.pdf,ok,"(2024, 20)","(2024, 20)","(2024, 20)",True,
+2024_06_Weekly_Report-21-2024.pdf,ok,"(2024, 21)","(2024, 21)","(2024, 21)",True,
+2024_06_Weekly_Report-22-2024.pdf,ok,"(2024, 22)","(2024, 22)","(2024, 22)",True,
+2024_06_Weekly_Report-23-2024.pdf,ok,"(2024, 23)","(2024, 23)","(2024, 23)",True,
+2024_06_Weekly_Report-24-2024.pdf,ok,"(2024, 24)","(2024, 24)","(2024, 24)",True,
+2024_07_Weekly_Report-25-2024.pdf,ok,"(2024, 24)","(2024, 25)","(2024, 25)",True,"title says (2024, 24) but filename says (2024, 25): used the filename"
+2024_07_Weekly_Report-26-2024.pdf,ok,"(2024, 26)","(2024, 26)","(2024, 26)",True,
+2024_07_Weekly_Report-27-2024.pdf,ok,"(2024, 27)","(2024, 27)","(2024, 27)",True,
+2024_07_Weekly_Report-28-2024.pdf,ok,"(2024, 28)","(2024, 28)","(2024, 28)",True,
+2024_08_Weekly_Report-29-2024.pdf,ok,"(2024, 29)","(2024, 29)","(2024, 29)",True,
+2024_08_Weekly_Report-30-2024.pdf,ok,"(2024, 30)","(2024, 30)","(2024, 30)",True,
+2024_08_Weekly_Report-31-2024.pdf,ok,"(2024, 31)","(2024, 31)","(2024, 31)",True,
+2024_08_Weekly_Report-32-2024.pdf,ok,"(2024, 32)","(2024, 32)","(2024, 32)",True,
+2024_08_Weekly_Report-33-2024.pdf,ok,"(2024, 33)","(2024, 33)","(2024, 33)",True,
+2024_09_Weekly_Report-34-2024.pdf,ok,"(2024, 34)","(2024, 34)","(2024, 34)",True,
+2024_09_Weekly_Report-35-2024.pdf,ok,"(2024, 35)","(2024, 35)","(2024, 35)",True,
+2024_09_Weekly_Report-36-2024.pdf,ok,"(2024, 36)","(2024, 36)","(2024, 36)",True,compliance: stated 70% vs computed 61% (Balochistan); compliance: stated 83% vs computed 81% (National)
+2024_10_Weekly_Report-37-2024.pdf,ok,"(2024, 37)","(2024, 37)","(2024, 37)",True,"compliance: regions minus National = expected +0, received +3; compliance: stated 70% vs computed 68% (Balochistan)"
+2024_10_Weekly_Report-38-2024.pdf,ok,"(2024, 38)","(2024, 38)","(2024, 38)",True,"compliance: regions minus National = expected +0, received -80"
+2024_10_Weekly_Report-39-2024.pdf,ok,"(2024, 39)","(2024, 39)","(2024, 39)",True,"compliance: regions minus National = expected +0, received +6"
+2024_10_Weekly_Report-40-2024.pdf,ok,"(2024, 40)","(2024, 40)","(2024, 40)",True,compliance: stated 70% vs computed 68% (Balochistan); compliance: stated 98% vs computed 100% (GB)
+2024_10_Weekly_Report-41-2024.pdf,ok,"(2024, 41)","(2024, 41)","(2024, 41)",True,
+2024_11_Weekly_Report-42-2024.pdf,ok,"(2024, 42)","(2024, 42)","(2024, 42)",True,"compliance: regions minus National = expected +0, received +3; compliance: stated 70% vs computed 68% (Balochistan)"
+2024_11_Weekly_Report-43-2024.pdf,ok,"(2024, 43)","(2024, 43)","(2024, 43)",True,compliance: stated 70% vs computed 63% (Balochistan)
+2024_11_Weekly_Report-44-2024_.pdf,ok,"(2024, 44)","(2024, 44)","(2024, 44)",True,compliance: stated 70% vs computed 64% (Balochistan)
+2024_12_Weekly_Report-45-2024.pdf,ok,"(2024, 45)","(2024, 45)","(2024, 45)",True,compliance: stated 70% vs computed 64% (Balochistan)
+2024_12_Weekly_Report-46-2024.pdf,ok,"(2024, 46)","(2024, 46)","(2024, 46)",True,
+2024_12_Weekly_Report-47-2024.pdf,ok,"(2024, 47)","(2024, 47)","(2024, 47)",True,lab header not found
+2024_12_Weekly_Report-48-2024.pdf,ok,"(2024, 48)","(2024, 48)","(2024, 48)",True,compliance: stated 77% vs computed 75% (KP); compliance: stated 96% vs computed 94% (AJK)
+2025_01_Weekly_Report-01-2025.pdf,ok,"(2024, 1)","(2025, 1)","(2025, 1)",True,"title says (2024, 1) but filename says (2025, 1): used the filename"
+2025_01_Weekly_Report-49-2024.pdf,ok,"(2024, 49)","(2024, 49)","(2024, 49)",True,compliance: stated 60% vs computed 53% (Balochistan); compliance: stated 76% vs computed 71% (National)
+2025_01_Weekly_Report-50-2024.pdf,ok,"(2024, 50)","(2024, 50)","(2024, 50)",True,compliance: stated 78% vs computed 76% (KP); compliance: stated 65% vs computed 53% (Balochistan); compliance: stated 72% vs computed 69% (Sindh); compliance: stated 80% vs computed 71% (National)
+2025_01_Weekly_Report-51-2024.pdf,ok,"(2024, 51)","(2024, 51)","(2024, 51)",True,compliance: stated 96% vs computed 94% (AJK); compliance: stated 60% vs computed 53% (Balochistan); compliance: stated 95% vs computed 91% (GB); compliance: stated 74% vs computed 69% (Sindh); compliance: stated 81% vs computed 71% (National)
+2025_01_Weekly_Report-52-2024.pdf,ok,"(2024, 52)","(2024, 52)","(2024, 52)",True,
+2025_02_Weekly_Report-02-2025.pdf,ok,"(2025, 2)","(2025, 2)","(2025, 2)",True,
+2025_02_Weekly_Report-03-2025.pdf,ok,"(2025, 3)","(2025, 3)","(2025, 3)",True,compliance: stated 78% vs computed 75% (ICT)
+2025_03_Weekly_Report-04-2025.pdf,ok,"(2025, 4)","(2025, 4)","(2025, 4)",True,"compliance: regions minus National = expected +0, received -75; compliance: stated 78% vs computed 75% (ICT)"
+2025_03_Weekly_Report-05-2025.pdf,ok,"(2025, 5)","(2025, 5)","(2025, 5)",True,"compliance: regions minus National = expected +36, received +25"
+2025_03_Weekly_Report-06-2025.pdf,ok,"(2025, 6)","(2025, 6)","(2025, 6)",True,
+2025_03_Weekly_Report-07-2025.pdf,ok,"(2025, 7)","(2025, 7)","(2025, 7)",True,"compliance: regions minus National = expected +40, received -1; compliance: stated 80% vs computed 78% (ICT)"
+2025_03_Weekly_Report-08-2025.pdf,ok,"(2025, 8)","(2025, 8)","(2025, 8)",True,
+2025_04_Weekly_Report-09-2025.pdf,ok,"(2025, 9)","(2025, 9)","(2025, 9)",True,compliance: stated 70% vs computed 64% (ICT)
+2025_05_Weekly_Report-10-2025.pdf,ok,"(2025, 10)","(2025, 10)","(2025, 10)",True,
+2025_05_Weekly_Report-11-2025.pdf,ok,"(2025, 11)","(2025, 11)","(2025, 11)",True,
+2025_05_Weekly_Report-12-2025.pdf,ok,"(2025, 12)","(2025, 12)","(2025, 12)",True,
+2025_06_IDSR_Week_13_Bulletin_(2025).pdf,ok,"(2025, 13)","(2025, 13)","(2025, 13)",True,
+2025_06_IDSR_Week_14_Bulletin_(2025).pdf,ok,"(2025, 14)","(2025, 14)","(2025, 14)",True,
+2025_06_IDSR_Week_15_Bulletin_(2025).pdf,ok,"(2025, 15)","(2025, 15)","(2025, 15)",True,
+2025_06_IDSR_Week_16_Bulletin_(2025).pdf,ok,"(2025, 16)","(2025, 16)","(2025, 16)",True,
+2025_06_Weekly_Report-17-2025.pdf,ok,"(2025, 17)","(2025, 17)","(2025, 17)",True,
+2025_06_Weekly_Report-18-2025.pdf,ok,"(2025, 18)","(2025, 18)","(2025, 18)",True,
+2025_06_Weekly_Report-19-2025.pdf,ok,"(2025, 19)","(2025, 19)","(2025, 19)",True,
+2025_06_Weekly_Report-20-2025.pdf,ok,"(2025, 20)","(2025, 20)","(2025, 20)",True,compliance: stated 80% vs computed 78% (ICT); compliance: stated 57% vs computed 54% (Balochistan)
+2025_06_Weekly_Report-21-2025.pdf,ok,"(2025, 21)","(2025, 21)","(2025, 21)",True,
+2025_08_Weekly_Report-22-2025.pdf,ok,"(2025, 22)","(2025, 22)","(2025, 22)",True,
+2025_08_Weekly_Report-23-2025.pdf,ok,"(2025, 23)","(2025, 23)","(2025, 23)",True,
+2025_08_Weekly_Report-24-2025.pdf,ok,"(2025, 24)","(2025, 24)","(2025, 24)",True,
+2025_08_Weekly_Report-25-2025.pdf,ok,"(2025, 25)","(2025, 25)","(2025, 25)",True,
+2025_08_Weekly_Report_26-2025.pdf,ok,"(2025, 26)","(2025, 26)","(2025, 26)",True,
+2025_09_Weekly_Report-27-2025.pdf,ok,"(2025, 27)","(2025, 27)","(2025, 27)",True,could not read the 7 compliance rows (got 6)
+2025_09_Weekly_Report-28-2025.pdf,ok,"(2025, 28)","(2025, 28)","(2025, 28)",True,could not read the 7 compliance rows (got 6)
+2025_09_Weekly_Report-29-2025.pdf,ok,"(2025, 29)","(2025, 29)","(2025, 29)",True,could not read the 7 compliance rows (got 6)
+2025_09_Weekly_Report-30-2025.pdf,ok,"(2025, 30)","(2025, 30)","(2025, 30)",True,
+2025_11_Weekly_Report-31-2025.pdf,ok,"(2025, 31)","(2025, 31)","(2025, 31)",True,"compliance: regions minus National = expected +0, received +31; Dengue label not found in lab table"
+2025_11_Weekly_Report-32-2025.pdf,ok,"(2025, 32)","(2025, 32)","(2025, 32)",True,"compliance: regions minus National = expected +0, received -279; compliance: stated 72% vs computed 76% (National)"
+2025_11_Weekly_Report-33-2025.pdf,ok,"(2025, 33)","(2025, 33)","(2025, 33)",True,"compliance: regions minus National = expected +39, received -157; compliance: stated 73% vs computed 76% (National); two values fall in one lab column (layout shifted)"
+2025_11_Weekly_Report-34-2025.pdf,ok,"(2025, 34)","(2025, 34)","(2025, 34)",True,"compliance: regions minus National = expected +39, received +152; compliance: stated 78% vs computed 76% (National)"
+2025_11_Weekly_Report-35-2025.pdf,ok,"(2025, 35)","(2025, 35)","(2025, 35)",True,
+2025_11_Weekly_Report-36-2025.pdf,ok,"(2025, 36)","(2025, 36)","(2025, 36)",True,could not read the 7 compliance rows (got 6)
+2025_11_Weekly_Report-37-2025.pdf,ok,"(2025, 37)","(2025, 37)","(2025, 37)",True,
+2025_11_Weekly_Report-38-2025.pdf,ok,"(2025, 38)","(2025, 38)","(2025, 38)",True,
+2025_11_Weekly_Report-39-2025.pdf,ok,"(2025, 39)","(2025, 39)","(2025, 39)",True,
+2025_11_Weekly_Report-40-2025.pdf,ok,"(2025, 40)","(2025, 40)","(2025, 40)",True,"compliance: regions minus National = expected +0, received -42"
+2025_11_Weekly_Report-41-2025.pdf,ok,"(2025, 41)","(2025, 41)","(2025, 41)",True,"compliance: regions minus National = expected +0, received -30"
+2025_11_Weekly_Report-42-2025.pdf,ok,"(2025, 42)","(2025, 42)","(2025, 42)",True,"compliance: regions minus National = expected +39, received +152; compliance: stated 78% vs computed 76% (National); Dengue label not found in lab table"
+2025_11_Weekly_Report-43-2025.pdf,ok,"(2025, 43)","(2025, 43)","(2025, 43)",True,"compliance: regions minus National = expected +39, received +152; compliance: stated 78% vs computed 76% (National); two values fall in one lab column (layout shifted)"
+2025_11_Weekly_Report-44-2025.pdf,ok,"(2025, 44)","(2025, 44)","(2025, 44)",True,
+2025_11_Weekly_Report-45-2025.pdf,ok,"(2025, 45)","(2025, 45)","(2025, 45)",True,"compliance: regions minus National = expected +0, received +16"
+2025_12_Weekly_Report-47-2025.pdf,ok,"(2025, 47)","(2025, 47)","(2025, 47)",True,"compliance: regions minus National = expected +0, received -49"
+2025_12_Weekly_Report-48-2025.pdf,ok,"(2025, 48)","(2025, 48)","(2025, 48)",True,"compliance: regions minus National = expected +0, received -1833; compliance: stated 96% vs computed 10% (Sindh); Table 5 (laboratories) not found"
+2025_12_Weekly_Report-49-2025.pdf,ok,"(2025, 49)","(2025, 49)","(2025, 49)",True,
+2026_01_IDSRS_Weekly_Report-01-2026-NEW.pdf,ok,"(2026, 1)","(2026, 1)","(2026, 1)",True,
+2026_01_IDSRS_Weekly_Report-50-2025.pdf,ok,"(2025, 50)","(2025, 50)","(2025, 50)",True,
+2026_01_IDSRS_Weekly_Report-51-2025-updated_(1).pdf,ok,"(2025, 51)","(2025, 51)","(2025, 51)",True,
+2026_01_Weekly_Report-52-2025.pdf,ok,"(2025, 52)","(2025, 52)","(2025, 52)",True,
+2026_02_IDSRS_Weekly_Report-02-2026-updated_(1).pdf,ok,"(2026, 2)","(2026, 2)","(2026, 2)",True,
+2026_02_IDSRS_Weekly_Report-04-2026-updated.pdf,ok,"(2026, 4)","(2026, 4)","(2026, 4)",True,
+2026_02_IDSRS_Weekly_Report-05-2026.pdf,ok,"(2026, 5)","(2026, 5)","(2026, 5)",True,
+2026_02_IDSRS_Weekly_Report-06-2026_(1).pdf,ok,"(2026, 6)","(2026, 6)","(2026, 6)",True,
+2026_02_Weekly_Report-03-2026.pdf,ok,"(2026, 3)","(2026, 3)","(2026, 3)",True,
+2026_03_IDSRS_Weekly_Report-10-2026.pdf,ok,"(2026, 10)","(2026, 10)","(2026, 10)",True,"compliance: regions minus National = expected +0, received -27"
+2026_03_Weekly_Report-07-2026.pdf,ok,"(2026, 7)","(2026, 7)","(2026, 7)",True,
+2026_04_IDSRS_Weekly_Report_11-2026.pdf,ok,"(2026, 11)","(2026, 11)","(2026, 11)",True,
+2026_04_Weekly_Report-12-2026.pdf,ok,"(2026, 12)","(2026, 12)","(2026, 12)",True,
+2026_05_IDSRS_Weekly_Report-16-2026_-_NG_(1).pdf,ok,"(2026, 16)","(2026, 16)","(2026, 16)",True,
+2026_05_IDSRS_Weekly_Report-18-NG_(1).pdf,ok,"(2026, 18)",,"(2026, 18)",True,
+2026_05_Weekly_Report-14-2026.pdf,ok,"(2026, 14)","(2026, 14)","(2026, 14)",True,"compliance: regions minus National = expected +0, received +52"
+2026_05_Weekly_Report-15-2026_.pdf,ok,"(2026, 15)","(2026, 15)","(2026, 15)",True,"compliance: regions minus National = expected +0, received +30; compliance: stated 57% vs computed 50% (Balochistan); compliance: stated 84% vs computed 79% (National)"
+2026_05_Weekly_Report-17-2026.pdf,ok,"(2026, 17)","(2026, 17)","(2026, 17)",True,
+2026_06_IDSRS_Weekly_Report-19-2026-NG_reviewed.pdf,ok,"(2026, 19)","(2026, 19)","(2026, 19)",True,"compliance: regions minus National = expected +0, received +10"
+2026_06_IDSRS_Weekly_Report-21-2026_(1).pdf,ok,"(2026, 21)","(2026, 21)","(2026, 21)",True,
+2026_06_Weekly_Report-20-2026.pdf,ok,"(2026, 20)","(2026, 20)","(2026, 20)",True,
+2026_07_IDSRS_Weekly_Report-22-2026.pdf,ok,"(2026, 22)","(2026, 22)","(2026, 22)",True,
+2026_07_IDSRS_Weekly_Report-25-2026_(1).pdf,ok,"(2026, 25)","(2026, 25)","(2026, 25)",True,
+2026_07_IDSRS_Weekly_Report-27-NG.pdf,ok,"(2026, 27)",,"(2026, 27)",True,could not read the 7 compliance rows (got 1)
+2026_07_IDSRS_Weekly_Report-28-2026_NG.pdf,ok,"(2026, 28)","(2026, 28)","(2026, 28)",True,
+2026_07_Public_Health_Bulletin_IDSRS_Weekly_Report-26-2026.pdf,ok,"(2026, 26)","(2026, 26)","(2026, 26)",True,
+2026_07_Weekly_Report-24-2026_(1).pdf,ok,"(2026, 24)","(2026, 24)","(2026, 24)",True,
+2026_08_IDSRS_Weekly_Report-29-2026.pdf,ok,"(2026, 29)","(2026, 29)","(2026, 29)",True,
+2026_08_IDSRS_Weekly_Report-31-2026_(1).pdf,ok,"(2026, 31)","(2026, 31)","(2026, 31)",True,
+2026_08_IDSRS_Weekly_Report-32-2026-NG_(1).pdf,ok,"(2026, 32)","(2026, 32)","(2026, 32)",True,
+2026_08_IDSRS_Weekly_Report-33-2026.pdf,ok,"(2026, 33)","(2026, 33)","(2026, 33)",True,
+2026_08_Weekly_Report-30-2026.pdf,ok,"(2026, 30)","(2026, 30)","(2026, 30)",True,
+2026_09_IDSRS_Weekly_Report-34-.pdf,ok,"(2026, 34)",,"(2026, 34)",True,
+2026_09_Weekly_Report-36-2026.pdf,ok,"(2026, 36)","(2026, 36)","(2026, 36)",True,"compliance: regions minus National = expected -36, received +0"
+2026_10_IDSR_weekly_report_38-NG_(1).pdf,ok,"(2026, 38)",,"(2026, 38)",True,
+2026_10_Weekly_Report-37-2026.pdf,ok,"(2026, 37)","(2026, 37)","(2026, 37)",True,"compliance: regions minus National = expected -32, received +0"

@@ -1,0 +1,14 @@
+comparison,metric,mean_diff,ci95_low,ci95_high,clear_difference
+GRU vs persistence (gru_noreport vs naive_last),abs error,-5.02,-27.64,19.62,False
+GRU vs LightGBM (gru_noreport vs lgbm_base),abs error,-6.86,-14.87,-0.5,True
+GRU vs LightGBM (gru_noreport vs lgbm_base),WIS,-8.18,-18.53,-0.87,True
+"GRU vs persistence, horizons 1-2 only (exploratory) (gru_noreport vs naive_last)",abs error,7.59,-11.58,34.36,False
+"GRU vs persistence, horizons 3-4 only (exploratory) (gru_noreport vs naive_last)",abs error,-18.05,-51.84,10.33,False
+LightGBM: adding CLIMATE (lgbm_climate vs lgbm_base),abs error,2.1,-1.35,5.87,False
+LightGBM: adding CLIMATE (lgbm_climate vs lgbm_base),WIS,3.74,0.54,8.06,True
+LightGBM: adding REPORTING (lgbm_reporting vs lgbm_base),abs error,-0.33,-5.36,2.68,False
+LightGBM: adding REPORTING (lgbm_reporting vs lgbm_base),WIS,-0.29,-3.08,1.6,False
+LightGBM: adding REPORTING on top of climate (lgbm_full vs lgbm_climate),abs error,0.71,-1.79,2.36,False
+LightGBM: adding REPORTING on top of climate (lgbm_full vs lgbm_climate),WIS,-0.22,-2.54,1.2,False
+GRU: adding REPORTING (gru_report vs gru_noreport),abs error,35.47,15.16,61.79,True
+GRU: adding REPORTING (gru_report vs gru_noreport),WIS,34.37,14.76,62.34,True

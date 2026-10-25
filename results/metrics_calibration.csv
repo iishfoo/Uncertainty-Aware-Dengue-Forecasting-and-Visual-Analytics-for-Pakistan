@@ -1,0 +1,13 @@
+model,n,coverage80,WIS,width
+gru_noreport,612,0.528,57.56,84.59
+gru_noreport+cqr,612,0.791,47.415,174.672
+gru_report,612,0.418,98.872,89.003
+gru_report+cqr,612,0.742,89.083,262.397
+lgbm_base,612,0.585,66.951,104.512
+lgbm_base+cqr,612,0.768,58.711,200.695
+lgbm_climate,612,0.51,72.057,96.243
+lgbm_climate+cqr,612,0.745,63.429,175.442
+lgbm_full,612,0.525,71.587,104.889
+lgbm_full+cqr,612,0.752,63.506,181.09
+lgbm_reporting,612,0.583,66.383,115.695
+lgbm_reporting+cqr,612,0.76,58.72,205.941
